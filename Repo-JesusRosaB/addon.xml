@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="Repo-JesusRosaB" name="JesusRosaB Repo" version="2.0.0" provider-name="JesusRosaB">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="JesusRosaB Repo">
+            <info compressed="false">https://raw.githubusercontent.com/JesusRosaB/CentroMultimedia/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/JesusRosaB/CentroMultimedia/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/JesusRosaB/CentroMultimedia/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repositorio oficial creador por JesusRosaB</summary>
+            <description>Repositorio creado para una configuracion basica de cualquier centro multimedia, incluye addons que no deberia faltar en ninguna maquina con Kodi.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
